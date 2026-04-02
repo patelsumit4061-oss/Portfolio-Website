@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(32, 32, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+header {
+    background-color: rgb(32, 32, 71);
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+header h1 {
+    color: white;
+}
+
+/* Button Section  */
+
+.back-btn {
+    background-color: rgb(32, 32, 71);
+    font-size: large;
+    margin: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 500px;
+    font-weight: bold;
+}
+
+main .back-btn:hover {
+    background-color: rgb(12, 13, 56);
+    cursor: pointer;
+}
+
+main .back-btn a {
+    color: rgb(216, 209, 209);
+    text-decoration: none;
+}
+
+.firstsection {
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+.firstsection .Project-Container {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.Project-box {
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 71);
+    padding: 60px;
+    transition: 0.5s;
+    height: 200px;
+}
+
+.Project-box:hover {
+    transform: translate(20px);
+}
